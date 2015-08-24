@@ -29,6 +29,3 @@ DEPENDENCIES
   capistrano (~> 3.2.1)
   capistrano-bundler
   capistrano-rbenv
-
-BUNDLED WITH
-   1.10.3
