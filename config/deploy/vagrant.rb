@@ -7,3 +7,5 @@ set :deploy_to, '/var/www/html'
 server '192.168.33.10', user: 'vagrant', roles: %w{web app}
 
 set :linked_dirs, %w(logs )
+
+after 'deploy', 'setting:chmods'
